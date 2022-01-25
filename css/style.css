@@ -8,10 +8,10 @@ body{
 }
 
 header{
-    background-color: blueviolet;
-    padding: 10px;
+    background-image:  url("../img/img-header.jpg");
+    padding: 100px;
     color: #fff;
-    text-align: center;
+
 }
 
 main{
@@ -42,7 +42,7 @@ button{
     border: 0px;
     padding: 10px;
     outline: 0;
-    background-color: blueviolet;
+    background-color: #B22222;
     color: #fff;
     border-radius: 3px;
     font-weight: bold;
@@ -50,7 +50,7 @@ button{
 }
 
 button:hover{
-    background-color: rgb(102, 31, 168);
+    background-color: #8B0000;
 
 }
 
@@ -79,4 +79,9 @@ table td img{
 
 .center{
     text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36pt;
 }

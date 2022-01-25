@@ -9,25 +9,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Estoque - Bom Preço</title>
 </head>
 
 <body>
     <header>
-        <h1>
-            Minha Loja 1.0
-        </h1>
+            <h1>
+                Mercearia Bom Preço
+            </h1>
     </header>
     <main>
         <div class="title">
-            <h2>Produtos</h2>
-            <spam>Lista de produtos da minha loja</spam>
+            <h2>Cadastro de Produtos</h2>
+            <spam>Lista de produtos em estoque</spam>
         </div>
 
         <div class="card">
             <div class="lineInput">
                 <label>Produto</label>
                 <input type="text" id="produto" placeholder="Nome do produto">
+            </div>
+
+            <div class="lineInput">
+                <label>Quantidade</label>
+                <input type="text" id="produto" placeholder="Quantidade do Produto">
             </div>
 
             <div class="lineInput">
@@ -38,17 +43,18 @@
             <button onclick="produto.cancelar()">cancelar</button>
         </div>
         <div class="content">
-            <table border="1">
-            <thead>
-                <th class="center"> ID</th>
-                <th> Produto</th>
-                <th> Valor</th>
-                <th class="center"> Ações</th>
-            </thead>
-            <tbody id="tbody">
+            <table>
+                <thead>
+                    <th class="center"> ID</th>
+                    <th> Produto</th>
+                    <th> Quantidade</th>
+                    <th> Valor</th>
+                    <th class="center"> Ações</th>
+                </thead>
+                <tbody id="tbody">
 
-            </tbody>
-        </table>
+                </tbody>
+            </table>
         </div>
     </main>
 
